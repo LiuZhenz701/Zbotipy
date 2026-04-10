@@ -1,0 +1,10 @@
+<Application x:Class="LocalMusicPlayer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LocalMusicPlayer"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+        <!-- Matches typical editor stacks; Cursor had no editor.fontFamily set — Consolas is the usual Windows default. -->
+        <FontFamily x:Key="CodeEditorFontFamily">Consolas, Cascadia Mono, Cascadia Code, Courier New</FontFamily>
+    </Application.Resources>
+</Application>
